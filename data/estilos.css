@@ -1,3 +1,24 @@
+/*
+reglas 
+selectores
+declaraciones
+propiedades
+valores
+
+- Selector de etiqueta
 header{
-  background-color: aqua;
+
+}
+- Selector descendente 
+body header div nav ol li a {
+
+}
+- selector de clase, usamos un punto .
+
+- selector de id usamos #
+*/
+
+header{
+  background: pink;
+  color: red;
 }
