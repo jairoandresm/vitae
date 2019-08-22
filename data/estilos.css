@@ -16,9 +16,35 @@ body header div nav ol li a {
 - selector de clase, usamos un punto .
 
 - selector de id usamos #
-*/
+
 
 header{
-  background: pink;
+  background: rgb(250, 247, 247);
   color: red;
+}
+img{
+  margin: 0%;
+  padding: 0em;
+  border-left: 0em
+}
+strong{
+  color: brown;
+}*/
+body{
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Fjalla One', sans-serif;
+}
+h1{
+  line-height: 1.5em;
+  font-size: 30px;
+  font-weight: normal;
+  /*font-style: italic;*/
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  text-decoration: dashed;
+}
+strong{
+  color: blue;
 }

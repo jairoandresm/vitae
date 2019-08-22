@@ -8,40 +8,44 @@
   <!– El favicon es el logo que aparece al lado del tittle en la página web y se llama con la etiqueta link–>
   <link rel="icon" type = "image/jpg" href= "data/jam.jpg" >
   <link rel="stylesheet" href="data/estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
       <div>
         <!– la etiqueta nav genera un menú de navegación–>
         <!– El método alt se puede usar para mostrar el enlace donde se descarga la imagen–>
         <!– El método width redimensiona el ancho de la imagen–>
         <!– El método height redimensiona el alto de la imagen–>
-        <figure>
+        <figure class="logo">
           <img src="data/jam.jpg" alt="Logo Jam" width="100px">
         </figure>
-    <nav>
+    <nav class="menu">
           <!– lista con viñeta–>
         <ul>
             <!– elementos de la lista–>
           <li>
               <!– anchor, sirve para anclar referencias u otros enlaces–>
-            <a href="#Perfil">Perfil profesional</a>
+            <a class="link" href="#Perfil">Perfil profesional</a>
           </li>
           <li>
-            <a href="#Experiencia">experiencia</a>
+            <a class="link" href="#Experiencia">experiencia</a>
           </li>
           <li>
-            <a href="#Contacto">trabajemos juntos</a>
+            <a class="link" href="#Contacto">trabajemos juntos</a>
           </li>
         </ul>
       </nav>
     </div>
+    <figure>
     <img src="data/jairo.jpg" alt="perfil" width="150px">
+    </figure>
     </header>
-    <section>
+    <section class="dato">
         
       <h1>
-        Jairo <strong> Andrés</strong> Morales <strong>Rodríguez</strong>
+        Jairo <strong> Andrés</strong> <br> <strong>Morales</strong> Rodríguez
         <h3>Ingeniero Electricista</h3>
         <nav>
           <li>
@@ -55,7 +59,7 @@
             <a>+57 3045641438</a>
           </li>
           <li>
-            <a>Cl 81 Sur No. 80L-20 Torre 16 Apto601 Bosa San José</a>
+            <a>Cl 81 Sur No. 80L-20 Torre 16 Apto 601 Bosa San José</a>
           </li>
           <li>
             <a>jaanmorales@utp.edu.co</a>
@@ -63,7 +67,7 @@
         </nav>
       </h1>
     </section>
-    <section id="Perfil">
+    <section class="hero" id="Perfil">
         <h2>Perfil profesional</h2>
         <p>
             Ingeniero Electricista con conocimientos en sistemas de Distribución y diseño de redes de media y baja tensión basado en estudios de proyección de demanda, conocimiento e diseño de subestaciones de acuerdo a la normatividad vigente (RETIE), competitivo con capacidad de análisis y formulación de proyectos, con condiciones de generar conocimiento y resolver problemas, criterio para tomar decisiones, con alto sentido de responsabilidad profesional y de trabajo en equipo.
@@ -82,9 +86,9 @@
             
       </article>
     </section>
-    <section id="Experiencia">
+    <section class="Experiencia" id="Experiencia">
       <h2> Experiencia Laboral</h2>
-      <article>
+      <article class="Estudios">
           <h5><strong>04/08/14 a 31/01/15 </strong> - 
             Aprendiz universitario, CODENSA SA. ESP, Bogota DC Desempeño de labores en Ingeniería de Redes de media y baja tensión, revi- sión de proyectos de ingeniería de redes, programación de tareas a desarrollar dentro de los lineamientos pactados en el proyecto.
             <strong> Jefe inmediato:</strong> José Orlando Ramirez. teléfono: 315-335-47-33
@@ -99,8 +103,8 @@
           </h5>
       </article>
     </section>
-    <section id="Contacto">
-      <form action="/suscripcion/">
+    <section class="contacto" id="Contacto">
+      <form class="email" action="/suscripcion/">
         <!– el atributo for sirve hara hacer focus en el id con el mismo nombre–>
         <!– el tipo datetime muestra datos almacenados en el navegador–>
         <h4>Trabajemos juntos</h4>
@@ -109,6 +113,6 @@
       <button>Enviar</button>
       </form>
     </section>
-    <footer></footer>
+    <footer class="footer"></footer>
 </body>
 </html>
