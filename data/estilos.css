@@ -32,9 +32,11 @@ strong{
 }*/
 body{
   font-family: "Source Sans Pro", sans-serif;
+  
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Fjalla One', sans-serif;
+  margin-block: 30px;
 }
 h1{
   line-height: 1.5em;
@@ -46,5 +48,52 @@ h1{
   text-decoration: dashed;
 }
 strong{
-  color: blue;
+  color: #073b4a;
 }
+.header{
+  background-color: #073b4a;
+  color: whitesmoke;
+  margin: 0px;
+}
+header a {
+  color: whitesmoke;
+}
+header figure{
+  background-color: #073b4a;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.dato{
+border-top: 1px solid #073b4a;
+border-left: 1px solid  #073b4a;
+border-right: 1px solid  #073b4a;
+border-bottom: 1px solid  #073b4a;
+border-radius: 10px;
+padding: 30px;
+}
+.hero{
+  border-top: 1px solid #073b4a;
+  border-left: 1px solid  #073b4a;
+  border-right: 1px solid  #073b4a;
+  border-bottom: 1px solid  #073b4a;
+  border-radius: 10px;
+  padding: 30px;
+}
+.Estudios{
+  border-top: 1px solid #073b4a;
+  border-left: 1px solid  #073b4a;
+  border-right: 1px solid  #073b4a;
+  border-bottom: 1px solid  #073b4a;
+  border-radius: 10px;
+  padding: 30px;
+}
+.Experiencia{
+  border-top: 1px solid #073b4a;
+  border-left: 1px solid  #073b4a;
+  border-right: 1px solid  #073b4a;
+  border-bottom: 1px solid  #073b4a;
+  border-radius: 10px;
+  padding: 30px;
+}
+
