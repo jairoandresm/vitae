@@ -12,15 +12,13 @@
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav> 
+    <article>
     <header class="header">
-      <div>
         <!– la etiqueta nav genera un menú de navegación–>
         <!– El método alt se puede usar para mostrar el enlace donde se descarga la imagen–>
         <!– El método width redimensiona el ancho de la imagen–>
         <!– El método height redimensiona el alto de la imagen–>
-        <figure class="logo">
-          <img src="data/jam.jpg" alt="Logo Jam" width="100px">
-        </figure>
     <nav class="menu">
           <!– lista con viñeta–>
         <ul>
@@ -37,14 +35,17 @@
           </li>
         </ul>
       </nav>
-    </div>
-    <figure>
-    <img src="data/jairo.jpg" alt="perfil" width="150px">
-    </figure>
+            <figure>
+            <img src="data/jairo.jpg" alt="perfil" width="150px" class="redonda">
+            </figure>
     </header>
+    <div class="datos__info">
+      <div class="datos__nombre">
     <h1>
-      Jairo <strong> Andrés</strong> <br> <strong>Morales</strong> Rodríguez
+      Jairo <strong> Andrés</strong> <br> <strong>Morales</strong> Rodríguez </h1>
+      <h3>CC. 1075245045 de Neiva</h3>
       <h3>Ingeniero Electricista</h3>
+    </div>
     <section class="dato">
         <h3>Datos personales</h3>
         <nav>
@@ -53,7 +54,7 @@
           </li>
           <li>
               <!– el atributo target _blank, abre una página nueva a los enlaces de nuestra página–>
-            <a href="https://www.linkedin.com/in/jairomorales" target="_blank">https://www.linkedin.com/in/jairomorales</a>
+            <a href="https://www.linkedin.com/in/jairomorales" target="_blank">www.linkedin.com/in/jairomorales</a>
           </li>
           <li>
             <a>+57 3045641438</a>
@@ -65,7 +66,9 @@
             <a>jaanmorales@utp.edu.co</a>
           </li>
         </nav>
-      </h1>
+      </article>
+    </nav>
+    </div>
     </section>
     <h2>Perfil profesional</h2>
     <section class="hero" id="Perfil">
@@ -92,29 +95,29 @@
     <section class="Experiencia" id="Experiencia">
       <article>
           <h5><strong>04/08/14 a 31/01/15 </strong> - 
-            Aprendiz universitario, CODENSA SA. ESP, Bogota DC Desempeño de labores en Ingeniería de Redes de media y baja tensión, revi- sión de proyectos de ingeniería de redes, programación de tareas a desarrollar dentro de los lineamientos pactados en el proyecto.
+            Aprendiz universitario, CODENSA SA. ESP, Bogota DC Desempeño de labores en Ingeniería de Redes de media y baja tensión, revisión de proyectos de ingeniería de redes, programación de tareas a desarrollar dentro de los lineamientos pactados en el proyecto.
             <strong> Jefe inmediato:</strong> José Orlando Ramirez. teléfono: 315-335-47-33
           </h5>
           <h5><strong>22/06/2015 a 15/02/2017</strong> - 
-            Ingeniero Electricista, diseños de redes de me- dia tensión GESTION Y DISEÑOS ELÉCTRICOS SA. Bogotá DC. Desempeño de labores de Ingeniería en servicio levantamiento, diagnóstico, verificación, di- seño e ingeniería para redes aéreas y subterráneas de media, baja tensión, alumbrado público y estudios técnicos aplicando criterios de diseño norma CODENSA.
+            Ingeniero Electricista, diseños de redes de media tensión GESTION Y DISEÑOS ELÉCTRICOS SA. Bogotá DC. Desempeño de labores de Ingeniería en servicio levantamiento, diagnóstico, verificación, diseño e ingeniería para redes aéreas y subterráneas de media, baja tensión, alumbrado público y estudios técnicos aplicando criterios de diseño norma CODENSA.
             <strong> Jefe inmediato:</strong> Maira Yoconda Sanchez. Teléfono: +57 301 2697020
           </h5>
           <h5><strong>12/06/17 a Presente</strong> - 
-            Ingeniero Electricista, diseños de redes de media ten- sión INMEL SA. Bogotá DC. Diseño y mantenimiento de redes aéreas y sub- terráneas de media y baja tensión según normatividad vigente, Estudios téc- nicos asociados al proyecto según requerimientos, revisión de proyectos de subestaciones, redes de baja tensión y alumbrado público.
+            Ingeniero Electricista, diseños de redes de media tensión INMEL SA. Bogotá DC. Diseño y mantenimiento de redes aéreas y subterráneas de media y baja tensión según normatividad vigente, Estudios técnicos asociados al proyecto según requerimientos, revisión de proyectos de subestaciones, redes de baja tensión y alumbrado público.
             <strong> Jefe inmediato:</strong>  Paola Sanchez. Teléfono: +57 312 5975451
           </h5>
       </article>
     </section>
-    <section class="contacto" id="Contacto">
+    <p></p>
+    <footer class="contacto" id="Contacto">
       <form class="email" action="/suscripcion/">
         <!– el atributo for sirve hara hacer focus en el id con el mismo nombre–>
         <!– el tipo datetime muestra datos almacenados en el navegador–>
-        <h4>Trabajemos juntos</h4>
+        <h2>Trabajemos juntos</h2>
         <label for="email">Contáctame</label>
-      <input type="datetime" placeholder="Déjame tu email" id="email">
-      <button>Enviar</button>
-      </form>
-    </section>
-    <footer class="footer"></footer>
+        <input class="input" type="datetime" placeholder="Déjame tu email" id="email">
+        <button>Enviar</button>
+        </form>
+      </footer>
 </body>
 </html>

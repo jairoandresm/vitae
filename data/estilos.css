@@ -32,7 +32,6 @@ strong{
 }*/
 body{
   font-family: "Source Sans Pro", sans-serif;
-  
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Fjalla One', sans-serif;
@@ -53,16 +52,54 @@ strong{
 .header{
   background-color: #073b4a;
   color: whitesmoke;
+  height: 150px;
   margin: 0px;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header ol{
+  display: flex;
+}
+ul{
+  color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+ 
 }
 header a {
   color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
 }
-header figure{
+.header, figure{
   background-color: #073b4a;
-  background-size: 100px 100px;
+  background-size: 500px 500px;
   background-repeat: no-repeat;
   background-position-x: right;
+  box-sizing: border-box;
+  display: flex;
+  align-self: center;
+  margin: 0px;
+}
+.redonda{
+  width:140px;
+    height:140px;
+    border-radius:150px;
+    display: flex;
+}
+.datos__info{
+  display: flex;
+  justify-content: center;
+}
+h1, h3{
+  margin: 0px;
+  padding: 10px;
 }
 .dato{
 border-top: 1px solid #073b4a;
@@ -70,7 +107,24 @@ border-left: 1px solid  #073b4a;
 border-right: 1px solid  #073b4a;
 border-bottom: 1px solid  #073b4a;
 border-radius: 10px;
+margin: 30px;
 padding: 30px;
+height: 200px;
+width: 400px;
+}
+.datos__nombre{
+  border-top: 1px solid #073b4a;
+border-left: 1px solid  #073b4a;
+border-right: 1px solid  #073b4a;
+border-bottom: 1px solid  #073b4a;
+border-radius: 10px;
+margin: 30px;
+padding: 30px;
+height: 200px;
+width: 300px;
+}
+.datos__nombre ~.datos__info{
+  justify-items: center;
 }
 .hero{
   border-top: 1px solid #073b4a;
@@ -79,6 +133,7 @@ padding: 30px;
   border-bottom: 1px solid  #073b4a;
   border-radius: 10px;
   padding: 30px;
+ 
 }
 .Estudios{
   border-top: 1px solid #073b4a;
@@ -96,4 +151,23 @@ padding: 30px;
   border-radius: 10px;
   padding: 30px;
 }
+.contacto{
+  border-top: 1px solid #073b4a;
+  border-left: 1px solid  #073b4a;
+  border-right: 1px solid  #073b4a;
+  border-bottom: 1px solid  #073b4a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0px;
+}
+.input{
+  width: 70%;
+  border-radius: 20px;
+  height: 20px;
+}
+label{
+  margin: 20px;
+}
+
+
 
