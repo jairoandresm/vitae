@@ -1,2 +1,0 @@
-# vitae
-Curriculum vitae

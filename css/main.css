@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sidenav {
+    width: 315px !important;
+}
+
+nav{
+    height: 0px;
+}
+
+
+.sidenav-trigger{
+    color: black;
+    font-size: 20px;
+}
+
+.collection a.collection-item {
+    display: block;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: black;
+}
